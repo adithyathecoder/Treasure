@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import crashpic from '../assets/crash.png';
+import crashpic from '../assets/q1.jpg';
 import "../styles/Level2.css"
 import { useAuth } from "../controllers/userState";
 import { useFirebase } from "../context/firebase";
@@ -46,21 +46,23 @@ function Level2() {
             {!showVideo && (
                 <div>
                     <div className="crash-pre-text"><h1>
-                        Stage 2: Save The Souls <br/>
-                        You have to make a Emergency Descent <br/>
-                        And every second counts<br/>
-                    <p className="level2-instruction">Instruction : <br/> <br/>
-                        A eye for detail <br/>
-                         You need to find clues to land safely<br/>
-                         Go Go Go ! Clocks Ticking< br/>
-                        <a href ="https://www.youtube.com/watch?v=qHQmkJjwNqs" target="_blank">Click Me</a>
+                        Stage 2: Welcome Hunters <br/>
+                        Well the meme can't be more accurate. I can twist your path to treasure till you give up.<br/>
+                        *  evil laughter  *<br/>
+                    <p className="level2-instruction">Instruction : <br/>
+                        So this is a five word sentence <br/>
+                         and nothing in treasure hunt is given for laughs <br/>
+                         So do you know? 
+                         yeah ___ ___ ___ ___
+                         Go go go ! Clocks Ticking< br/>
+                        <a href ="https://drive.google.com/file/d/1NNdWECbSIji9f7rO8blf3OWR-ZGfoKrI/view?usp=sharing" target="_blank">Click Me</a>
                     </p>         
                     </h1></div>
                     <div>
                         <img src={crashpic} alt="not found" className="crashpic" />
                     </div>
                     <div className="crash-container">
-                        <div className="crash-slider-container">
+                      {/*  <div className="crash-slider-container">
                             <label htmlFor="crash-slider">Set the Flaps level:</label>
                             <input
                                 type="range"
@@ -81,8 +83,8 @@ function Level2() {
                             <label htmlFor="crash-apu-off">Off</label>
                             <input type="radio" id="crash-apu-off" name="crash-apu" value="off" className="crash-radio"
                                 checked={apu === 'off'} onChange={handleApuChange} />
-                        </div>
-                        <label htmlFor="crash-optionmenu">Choose where you want to land:</label>
+                        </div>*/}
+                        <label htmlFor="crash-optionmenu">Choose your ans:</label>
                         <select
                             id="crash-optionmenu"
                             name="crash-optionmenu"
@@ -90,25 +92,21 @@ function Level2() {
                             value={landingOption}
                             onChange={handleOptionChange}
                         >
-                            <option value="teterboro">Teterboro Airport</option>
-                            <option value="hudson">Hudson River</option>
+                            <option value="teterboro">I know I know</option>
+                            <option value="hudson">I don't Know</option>
                         </select>
                         <button class="crash-land" onClick={handleLanding}>Submit</button>
                     </div>
                 </div>
             )}
 
-            {showVideo && (
-                        <div>
-                        <div className="prevent-video-stop">  
-                        </div>
+            {/*{showVideo && (
                 <div className="crash-video-container">
                     <video id="crashvideo" className="crash-video" controls autoPlay onEnded={handleVideoend}>
                         <source src="assets/videos/crash.mp4" type="video/mp4" />
                     </video>
                 </div>
-                </div>
-            )}
+            )}*/}
         </div>
     );
 }
