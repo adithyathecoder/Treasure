@@ -26,7 +26,7 @@ const Level3 = ({user}) => {
         // console.log("here", row1[0]);
         // console.log(row1[0]);
 
-        if (row1[0] == "X" || row1[0] == "x") {
+        if (row1[0] == "HOW" || row1[0] == "how" || row1[0] == "How") {
             setColorcell1("green")
         } else { setColorcell1("red") }
 
@@ -34,23 +34,23 @@ const Level3 = ({user}) => {
         //     setColorcell2("green")
         // } else { setColorcell2("red") }
 
-        if (row1[2] == 1||row1[2] == 4) {
+        if (row1[2] == "are"||row1[2] == "Are" || row1[2] == "ARE") {
             setColorcell3("green")
         } else { setColorcell3("red") }
 
-        if (row1[3] == 5 || row1[3] == 3) {
+        if (row1[3] == "you" || row1[3] == "u" ||row1[3] =="YOU" || row1[3] =="U" || row1[3] =="You") {
             setColorcell4("green")
         } else { setColorcell4("red") }
 
 
 
-        if ((row1[0] == "X" || row1[0] == "x")  && row1[2] == 1 && row1[3] == 5) {
+        if ((row1[0] == "HOW" || row1[0] == "how" || row1[0] == "How")  && (row1[2] == "are"||row1[2] == "Are" || row1[2] == "ARE") && (row1[3] == "you" || row1[3] == "u" ||row1[3] =="YOU" || row1[3] =="U" || row1[3] =="You")) {
             if(user){
             firebase.putData('users' + user.uid, { level : 3});
-            setTimeout(() => {return(window.location.href = "/level4");},1500
+            setTimeout(() => {return(window.location.href = "/level5");},1500
             );}
         }
-        if((row1[0] == "X" || row1[0] == "x")  && row1[2] == 4 && row1[3] == 3){
+        if((row1[0] == "HOW" || row1[0] == "how" || row1[0] == "How")  && (row1[2] == "do"||row1[2] == "Do")){
             if(user){
                 firebase.putData('users' + user.uid, { level : -1});
                 setTimeout(() => {return(window.location.href = "/deadend");},1500
@@ -62,16 +62,14 @@ const Level3 = ({user}) => {
 
     return (
         <div>
-            <div className="level3-pretext"><h1> Stage 3: The Numble Game  
+            <div className="level3-pretext"><h1> Stage 3: The Text Game  
                     <br />Make a intelligent guess <br/>
                     There are three input fields<br/>
                     If you are right the input turns green<br/>
                     <p className="level3-instruction">Clue : <br/><br/>
-                    I soar through the skies at incredible speeds, <br/>
-                    Mach 6 and higher, my velocity exceeds.<br/>
-                    The first man on the moon was himself one of my pilot<br/>
-                    I am a secret, for now, let's just soar.<br/>
-                    </p>         
+                    the old style of writing input, <br/>
+                    Mr. pekka lundmark akka<br/>
+                    the message is : 446669027733099966688 </p>         
                     </h1></div>
             <div className="hyper-backdrop"></div>
             {/* <div className=""></div> */}
