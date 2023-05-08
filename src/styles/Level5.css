@@ -14,30 +14,8 @@
     display: flex;
     justify-content: left;
     padding-bottom: 20px;
-    color:antiquewhite;
-}
-.level5-riddle{
-    font-family:cursive;
-    font-size: 170%;
-    background-color: rgba(0, 0, 0, 0.413);
-    /* height: 1000px; */
-    position: absolute;
-    top: 10vh;
-    /* right: 200px; */
-    /* left: 20px; */
-    /* right: 3000px; */
-    padding: 20px;
-    /* padding-left: 20px; */
-    text-align: start;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
-    width: 100%;
-    display: flex;
-    justify-content: right;
-    padding-bottom: 20px;
-    color:antiquewhite;
-}
-
+    color:antiquewhite;}
+    
 
 /* @media screen and (max-width:1000px){
   level5-riddle{
