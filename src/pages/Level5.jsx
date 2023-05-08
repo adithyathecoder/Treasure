@@ -1,6 +1,5 @@
 import "../styles/Level5.css"
-import level5img from "../assets/b2.jpg"
-import riddleimg from "../assets/riddle.png"
+import level5img from "../assets/q5.png"
 import { useFirebase } from "../context/firebase";
 import { useState,useEffect } from "react";
 
@@ -34,7 +33,7 @@ const Level5 = ({user}) => {
             const now = new Date();
             if(user){
             firebase.putData('users' + user.uid, { level : 5,endTime:{now}});
-            setTimeout(() => {return(window.location.href = "/level6");},2000
+            setTimeout(() => {return(window.location.href = "/Certificate");},2000
             );}
 
         } else {
@@ -50,12 +49,16 @@ return(
     <h1 className="level5text">Congratuation ! <br/>
     You made it this Far<br/> 
     To the Final Showdown<br/>
-    Stage 5: The Flying Enigma <br/>
+    Stage 5: The Final Treasure <br/>
+    A printed message contains in each of 3 boxes<br/>
+    The first box says 'The Gold is not here'.<br/>
+    The Second box says 'The Gold is not here'.<br/>
+    The Third box says 'The Gold is in the Second here'.<br/>
+    One of the message is true and the other two are lies <br/>
+    Which Box has gold ? <br/>
     </h1>
     <div className="level5-riddle-container">
 
-    <img className="level5-riddle" src ={riddleimg}>
-    </img>
     </div>
     <div>
         <img src={level5img} alt="not found" className="level5-img"/>
