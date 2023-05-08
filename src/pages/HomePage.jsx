@@ -6,7 +6,7 @@ import { auth } from "../context/firebase";
 import { useFirebase } from "../context/firebase";
 import { useAuth } from "../controllers/userState";
 import { get } from "firebase/database";
-import audio from '../assets/audio.mp3';
+import audio from '../assets/Audio Treasure Hunt.mp3';
 
 
 const HomePage = ({user,podcastData}) =>{
