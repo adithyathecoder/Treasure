@@ -1,6 +1,6 @@
 import { useState,useEffect } from 'react';
 import "../styles/Deadend.css"
-import deadendBadge from '../assets/deadend.png';
+import deadendBadge from '../assets/background.jpg';
 import { useFirebase, auth} from '../context/firebase';
 import { signOut } from "firebase/auth";
 
