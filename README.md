@@ -2,7 +2,7 @@
 # Treasure Hunt
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/73771646/236688508-2e29830f-813c-4206-91f3-4cad828ab0a3.png" alt="" width=400>
+    <img src="public/logo192.jpg" alt="" width=400>
 <br><br>
 A hand crafted immersive treasure hunt game mixed with thrill, surprise and adventure around every corner.
 Fly High and Dive Deep
