@@ -4,9 +4,7 @@
 <p align="center">
     <img src="public/logo192.jpg" alt="" width=400>
 <br><br>
-A hand crafted immersive treasure hunt game mixed with thrill, surprise and adventure around every corner.
-Fly High and Dive Deep
-Based on Avaition theme, trivia, puzzlues, and your chance to be a wing master. 
+Embark on a hand-crafted immersive treasure hunt game filled with excitement, adventure, and surprises at every turn. Take flight and dive deep into a world of trivia, puzzles, and challenges to prove yourself as a wing master 
 </p>
 <br>
 
