@@ -16,11 +16,11 @@ Embark on a hand-crafted immersive treasure hunt game filled with excitement, ad
 * [Authorization and Security](#authorization-and-security)
 * [Structure of the game](#structure-of-the-game)
 * [General Instructions for the game](#general-instructions-for-the-game-are-as-follows)
-* [Stage 1: Ready for Takeoff](#stage-1-ready-for-takeoff)
-* [Stage 2: Save the Souls](#stage-2-save-the-souls)
-* [Stage 3: The Numble Game](#stage-3-the-numble-game)
-* [Stage 4: The lost Artefact](#stage-4-the-lost-artefact)
-* [Stage 5: The Flying Enigma](#stage-5-the-flying-enigma)
+* [Stage 1: Start the treasure](#stage-1-ready-for-takeoff)
+* [Stage 2: Welcome Hunters](#stage-2-save-the-souls)
+* [Stage 3: The Next Game](#stage-3-the-numble-game)
+* [Stage 4: The lost Treasure](#stage-4-the-lost-artefact)
+* [Stage 5: The final Treasure](#stage-5-the-flying-enigma)
 * [Wing Master Badge](#wing-master-badge)
 * [Tech stack](#tech-stack)
 * [Project Set-up](#project-set-up)
@@ -30,11 +30,11 @@ Embark on a hand-crafted immersive treasure hunt game filled with excitement, ad
 ## Game Features
 
 - [x] 5 stages of game
-    1. Ready for Takeoff
-    2. Save the Souls
-    3. The Numble Game
-    4. The lost Artefact
-    5. The Flying Enigma
+    1. Start the Treasure
+    2. Welcome Hunters
+    3. The Next Hunters
+    4. The lost Treasure
+    5. The final Treasure
 - [x] Soft skills assessed
     1. Critical Thinking
     2. Decision Making
@@ -81,26 +81,20 @@ Only logged in users can:
 
 ## General Instructions for the game are as follows:
 
-- I recommended to sign in with google for a better user experience.
+1) For an enhanced user experience, I suggest signing in with Google.
 
-- I recommend completing all stages in one session, as scores are populated on levels and time taken. 
+2) To achieve the best scores, it is advisable to complete all stages in one session while recording time taken.
 
-- Stages are incremented and Time Taken is saved in the daatabse.
+3) Each stage is sequentially incremented, and the time taken by the user is saved in the database.
 
-- You can always start where you left off.
+4) Resuming the game from where you left off is always an option.
 
-- Read the instructions on each levels carefully as they are clues to take you forward.
+5) Every level contains essential instructions that serve as clues to progress further, so read them carefully.
 
-- If you hit a deadend, you can always choose to play again.
+6) If you encounter a dead end, don't worry, you can choose to replay the game again.
 
-# Stage 1: Ready for Takeoff
+# Stage 1: Start the Treasure
 <hr>
-<p align="center">
-        <img src="https://user-images.githubusercontent.com/73771646/236688850-c9f9e5d1-5664-4663-aba8-68eec0a51764.png" alt="" >
-    </p>
-
-
-
 ## Soft skills tested: 
 
 - Critical Thinking
@@ -110,23 +104,23 @@ Only logged in users can:
 
 ## Clues: 
 
-    - The image showcase a cockpit view and you are the pilot in command.
+    - The image showcase a Treasure view and you are the captain of the team.
 
 
 ## Story
 ```
-You are a US Airways Flight 1549 pilot, and ATC clears for takeoff.
+You are the captain of the team to find the Treasure. Start the treasure hunt by opening the correct door.
 ```
 
 ## Puzzle
 
-The Image of a cockpit and the player has to use his critical thinking skills and fly the pkane.
+The Image of a three doors there is a single door to start guess the correct door to start the game.
 
 ## Solution
 
 <details> 
   <summary> Click to view ? </summary>
-  Click on The Throttle
+  Click on The third door
 </details>
 
 ## Motive
@@ -135,10 +129,10 @@ This stage aims to give players a head start and take them on a thrilling journe
 
 <br>
 
-# Stage 2: Save the Souls
+# Stage 2: Welcome Hunters
 <hr>
 <p align="center">
-        <img src="https://user-images.githubusercontent.com/73771646/236688882-40884ead-f87f-454f-ab7d-c31647f4c230.png" alt="" >
+        <img src="src/assets/q1.jpg" alt="" >
     </p>
 
 
@@ -153,16 +147,12 @@ This stage aims to give players a head start and take them on a thrilling journe
 
 ## Clues: 
 
-You are given a extrnal link, you need to look to clues in the video.
+You are given a extrnal link, you need to look to clues in the picture.
 
 ## Story
 ```
-You lost your Engines Mid flight, and the plane is losing altitude with 155 onboard, you are captain flying.  
+Its a captain america dialogue Find the right answer .  
 ```
-
-## Puzzle
-
-Set the Flaps Level, choose the APU state and choose where to land, clocks tickin' !
 
 ## Dead end: 1
 
@@ -172,7 +162,7 @@ Set the Flaps Level, choose the APU state and choose where to land, clocks ticki
 
 <details> 
   <summary> Click to see? </summary>
-  Set Flaps: 2, APU: on, Land : Hudson River  
+  **Yeah** I know I know 
 </details>
 
 ## Motive
@@ -181,10 +171,10 @@ This stage is design to assess memory and decision making skills.
 
 <br>
 
-# Stage 3: The Numble Game
+# Stage 3: The Next Hunters
 <hr>
 <p align="center">
-        <img src="https://user-images.githubusercontent.com/73771646/236688930-c88f0444-3ee3-44d4-ad7d-74a24fbc0ad5.png" alt="" >
+        <img src="src/assets/nokia.jpg" alt="" height = 300 >
     </p>
 
 
@@ -200,12 +190,12 @@ This stage is design to assess memory and decision making skills.
 ## Story
 
 ```
-It's a plane a relic of the past, faster than sound, somehow related to the first man on the moon. 
+The old style phone messaging in key pad mobile. 
 ```
 
 ## Puzzle
 
-Solve the Numble Puzzle based on the clue and intellingent guess.
+Solve the number Puzzle based on the clue and intellingent guess.
 
 ## Dead end: 1
 
@@ -214,18 +204,16 @@ There are multiple answer incorporated in this level, if the player answers othe
 ## Solution
 <details> 
   <summary> Click to see? </summary>
-            X-15, (X-43 to deadend)
+    How are you
 </details>
 
 ## Motive
 The stage tests user of thier knowledge of niche things and asses the logical comprehension. 
 
 
-# Stage 4: The lost Artefact
+# Stage 4: The lost Treasure
 <hr>
-<p align="center">
-        <img src="https://user-images.githubusercontent.com/73771646/236688976-d955f2bf-88e4-44db-afb9-05e4de4f046a.gif" alt="" height = 450 >
-    </p>
+
 
 
 ## Soft skills tested: 
@@ -238,7 +226,7 @@ The stage tests user of thier knowledge of niche things and asses the logical co
 ## Story
 
 ```
-The lost Artefact, the plane that was never found, the greatest mystery of all times. 
+The lost Treasure, the treasure that was never found, the greatest mystery of all times. 
 ```
 
 ## Puzzle
@@ -247,7 +235,7 @@ The lost Artefact, the plane that was never found, the greatest mystery of all t
 ## Solution
 <details> 
   <summary> Click to see? </summary>
-  MH370  
+  straight
 </details>
 
 ## Motive
@@ -256,10 +244,10 @@ The satge is to test user compreshension and Auditory Skills.
 
 <br>
 
-# Stage 5: The Flying Enigma
+# Stage 5: The Final Treasure
 <hr>
 <p align="center">
-        <img src="https://user-images.githubusercontent.com/73771646/236689010-9a981e4f-0a9e-4fc3-80e2-0f4a27162f53.png" alt="" >
+        <img src="src/assets/q5.png" alt="" >
     </p>
 
 
@@ -270,12 +258,12 @@ The satge is to test user compreshension and Auditory Skills.
 
 ## Clues: 
 
-- As the name suggests "The flying Enima", the picture and riddle is your clue.  
+- As the name suggests "The Final", the picture and riddle is your clue.  
 
 ## Story
 
 ```
-It a behemoth yet stealth, fearing the enemy, and one of the great Enigma.
+From the given Clue find where is the treasure
 ```
 
 ## Puzzle
@@ -286,7 +274,7 @@ The final showdown, answer the riddle with full answer to get your reward.
 
 <details> 
   <summary> Click to see? </summary>
- Northrop Grumman B-2 Spirit
+ Box A
 </details>
 
 ## Motive
