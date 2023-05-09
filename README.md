@@ -21,7 +21,6 @@ Embark on a hand-crafted immersive treasure hunt game filled with excitement, ad
 * [Stage 3: The Next Game](#stage-3-the-numble-game)
 * [Stage 4: The lost Treasure](#stage-4-the-lost-artefact)
 * [Stage 5: The final Treasure](#stage-5-the-flying-enigma)
-* [Wing Master Badge](#wing-master-badge)
 * [Tech stack](#tech-stack)
 * [Project Set-up](#project-set-up)
 * [Credits](#credits)
