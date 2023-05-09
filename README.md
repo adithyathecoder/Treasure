@@ -11,11 +11,9 @@ Embark on a hand-crafted immersive treasure hunt game filled with excitement, ad
 ## Table of Contents
 <!-- <> -->
 * [Game Features](#game-features)
-* [Flow Chart Markdown](#flow-chart-markdown)
 * [Player and Analytics](#player-and-analytics)
 * [Authentication](#authentication)
 * [Authorization and Security](#authorization-and-security)
-* [Screen Shots](#screen-shots)
 * [Structure of the game](#structure-of-the-game)
 * [General Instructions for the game](#general-instructions-for-the-game-are-as-follows)
 * [Stage 1: Ready for Takeoff](#stage-1-ready-for-takeoff)
@@ -52,19 +50,6 @@ Embark on a hand-crafted immersive treasure hunt game filled with excitement, ad
     2. Second on stage 3:  The Numble Game
 <br>
 
-## Flow Chart Markdown
-```mermaid
-graph LR
-A[Stage 1] --> B[Stage 2]
-B --> C[Stage 3]
-C --> D[Stage 4]
-D --> E[Stage 5]
-E --> F[Reward]
-B --> G[Dead End]
-C --> H[Dead End]
-G --> A
-H --> A
-```
 
 ### Player, Analytics and Insights
 - [x] User leader board
@@ -86,33 +71,6 @@ Only logged in users can:
 - [x] Play game
 - [x] Access player analysis
 - [x] Only admin can access Admin Panel
-
-# Screen Shots
-
-<p align="left">
-        Sign Up Page<hr>
-        <br>
-        <img src="https://user-images.githubusercontent.com/73771646/236688596-fbfb3ca6-5f1f-442e-847f-3a73fb52d944.png" alt="" >
-        <br><br>
-        Login Page<hr>
-        <br>
-        <img src="https://user-images.githubusercontent.com/73771646/236688651-30d6ed8f-43c9-477b-94a6-99a5e7dc1759.png" alt="" >
-        <br><br>
-         Admin Panel and LeaderBoard<hr>
-        <img src="https://user-images.githubusercontent.com/73771646/236688719-a905042f-12ac-4eed-8b02-6ce79358bf27.png" alt="" >
-        <br><br>
-         Player Analytics Graphs<hr>
-        <img src="https://user-images.githubusercontent.com/73771646/236883030-76a633f0-2b88-4c61-a1cd-fa0de7bbf604.png" alt="" >
-        <br><br>
-         Player Scorecard View <hr>
-        <img src="https://user-images.githubusercontent.com/73771646/236883438-2854b849-066d-40a9-8c84-f2db7fb90ddc.png" alt="" >
-        <br><br>
-         Deadend <hr>
-        <img src="https://user-images.githubusercontent.com/73771646/236887905-fee3d353-09d5-4fc9-87ea-c80d02ef1691.png" alt="" >
-        <br><br>
-         Wing Master Certificate<hr>
-        <img src="https://user-images.githubusercontent.com/73771646/236887647-d26f4bfb-4985-48d9-841a-4787ce3a44c6.png" alt="" >
-</p>
 
 
 # Structure of the game
