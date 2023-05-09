@@ -283,10 +283,6 @@ The stage test the curiosity of the user and testing player patience to extreme.
 
 <br>
 
-# Wing Master Badge
-<hr>
-<img src="https://user-images.githubusercontent.com/73771646/236628523-e46c585e-b469-4895-88bb-ba4b08fa3d06.png" alt="badge">
-
 # Tech Stack:
 
 ## Frontend
@@ -334,7 +330,7 @@ Database Structure Used
 
 ## Install Project through CLI
 
-    $ git clone https://github.com/synapse2001/Artefact
+    $ git clone https://github.com/adithyathecoder/Treasure
     $ cd artefact
     $ npm install
 
@@ -364,6 +360,4 @@ replace the credentials at the necessary locations, as this project utilizes Fir
 <br>
 
 # Credits
-- Sully Movie Scene : https://www.youtube.com/watch?v=qHQmkJjwNqs&t=84s
-- Netflix : https://www.youtube.com/watch?v=TDg0m2Q3H8c
-- Images and Graphics: https://www.freepik.com/
+github : https://github.com/synapse2001
